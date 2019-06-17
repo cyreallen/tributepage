@@ -1,0 +1,110 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background-color: transparent;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: allan;
+  font-size: 60px;
+  background-color: transparent;
+  border: transparent;
+  outline-style: none;
+  padding: 100px;
+}
+
+h2 {
+  text-align: center;
+  font-family: arial-black;
+  font-size: 25px;
+  background-color: transparent;
+  color: white;
+}
+
+img {
+  background-color: none;
+  padding: 1px;
+  border: 1px;
+}
+
+h2 {
+  font-family: arial-black;
+  text-align: center;
+}
+
+h3 {
+  background-color: none;
+  text-align: center;
+  font-family: arial-black;
+  font-size: 30px;
+}
+
+h4 {
+  background-color: ghostwhite;
+  text-align: left;
+}
+
+ul {
+  background-color: none;
+  text-align: left;
+  font-family: allan;
+  font-size: 20px;
+}
+
+div {
+  background-color: none;
+}
+
+.icon-bar {
+  width: 90px;
+  /* Set a specific width */
+  background-color: #555;
+  /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block;
+  /* Make the links appear below each other instead of side-by-side */
+  text-align: center;
+  /* Center-align text */
+  padding: 16px;
+  /* Add some padding */
+  transition: all 0.3s ease;
+  /* Add transition for hover effects */
+  color: white;
+  /* White text color */
+  font-size: 36px;
+  /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: blue;
+  /* Add a hover color */
+}
+
+.active {
+  background-color: skyblue;
+}
+
+/*#grad1 {
+  height: 10px;
+  background-color: blue; 
+  background-image: linear-gradient(blue, ghostwhite); 
+}
+*/
+body {
+  background: linear-gradient(skyblue, ghostwhite) fixed;
+}
+
+footer {
+  background-color: none;
+  text-align: right;
+}
